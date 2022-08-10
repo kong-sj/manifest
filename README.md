@@ -1,1 +1,1 @@
-Kubernetes manifest 관리 repository
+Kubernetes manifest repository
