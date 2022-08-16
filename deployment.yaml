@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: naver
-          image: sjhong1994/k8s-manifest:8
+          image: sjhong1994/k8s-manifest:7
           ports:
             - containerPort: 80
 
