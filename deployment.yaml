@@ -16,7 +16,7 @@ kind: Deployment
 metadata:
   name: naver
 spec:
-  replicas: 10
+  replicas: 3
   selector:
     matchLabels:
       app: naver
@@ -50,7 +50,7 @@ kind: Deployment
 metadata:
   name: cloud
 spec:
-  replicas: 10
+  replicas: 3
   selector:
     matchLabels:
       app: cloud
@@ -84,7 +84,7 @@ kind: Deployment
 metadata:
   name: platform
 spec:
-  replicas: 10
+  replicas: 3
   selector:
     matchLabels:
       app: platform
