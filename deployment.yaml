@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: naver
-          image: sjhong1994/k8s-manifest:4
+          image: sjhong1994/k8s-manifest:5
           ports:
             - containerPort: 8080
 
@@ -61,7 +61,7 @@ spec:
     spec:
       containers:
         - name: cloud
-          image: sjhong1994/k8s-manifest:4
+          image: sjhong1994/k8s-manifest:5
           ports:
             - containerPort: 8080
 
@@ -95,6 +95,6 @@ spec:
     spec:
       containers:
         - name: platform
-          image: sjhong1994/k8s-manifest:4
+          image: sjhong1994/k8s-manifest:5
           ports:
             - containerPort: 8080
