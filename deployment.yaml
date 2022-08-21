@@ -16,7 +16,7 @@ kind: Deployment
 metadata:
   name: naver
 spec:
-  replicas: 
+  replicas: 1
   selector:
     matchLabels:
       app: naver
